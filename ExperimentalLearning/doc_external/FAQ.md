@@ -152,8 +152,8 @@ Note: All output is associated with, i.e. easily retrievable based-on, the 'exec
 
 - ***tuning_plot_foldout__[id/name of fold on which algorithm is being tuned/fitted (using CV)]__alg__[name of algorithm being tuned]__losstype__[losstype used to tune the algorithm]__[exec id].html*** : Tuning plot capturing the performance of the algorithm in question across each tuning iteration, i.e. each parameter set. Note that each *.html* file is (for now) accompanied by a folder which can be safely ignored. 
 
-
-##### Potential Problems
+### [5] Potential Installation Problems
+----
 
 - On MacOSx the installation of RcppEigen may potentially fail (which may or may not impact the execution of the package). See below for installation instructions to address this problem.
 ````
