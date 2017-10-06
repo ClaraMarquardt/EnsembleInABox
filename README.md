@@ -6,10 +6,10 @@
 
 **ExperimentalLearning Package - Installation**
 
-- See: https://github.com/jannspiess/ExperimentalLearning/blob/clara_dev/ExperimentalLearning/doc_external/FAQ.md
+- See: https://github.com/sysmedlab/chicago/tree/master/ExperimentalLearning/doc_external/FAQ.md
 
 **ExperimentalLearning Package - Documentation**
 
-- See: https://github.com/jannspiess/ExperimentalLearning/blob/clara_dev/ExperimentalLearning/doc_external/FAQ.md
+- See: https://github.com/sysmedlab/chicago/tree/master/ExperimentalLearning/doc_external/FAQ.md
 
 **ExperimentalLearning Package - Development-Related Updates**
