@@ -1,0 +1,37 @@
+Package: ExperimentalLearning
+Type: Package
+Title: Using ML tools to analyze policy experiments
+Version: 0.1.5
+Date: 2017
+Depends:
+    R (>= 3.3.1)
+Encoding: UTF-8
+LazyData: true
+Author: David Welgus, Jann Spiess, Clara Marquardt
+Maintainer: Clara Marquardt <marquardt.clara@gmail.com>
+Description: Data-Driven Analysis of Experimental Data
+License: TBD
+RoxygenNote: 5.0.1
+Imports:
+    caret,
+    xgboost,
+    rpart,
+    glmnet,
+    ggplot2,
+    grid,
+    data.table,
+    testit,
+    plotly,
+    Hmisc,
+    mfx,
+    multiwayvcov,
+    parallel,
+    plyr,
+    ranger,
+    rlist,
+    survey,
+    systemfit,
+    zoo,
+    car,
+    nnls,
+    Rcpp
