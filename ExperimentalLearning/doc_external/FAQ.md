@@ -2,7 +2,7 @@
 ----
 
 For a brief overview of the conceptual background and motivation behind the _ExperimentalLearning_ Package see:
-https://github.com/jannspiess/ExperimentalLearning/blob/clara_dev/ExperimentalLearning/doc_external/conceptual_background.pdf
+https://github.com/sysmedlab/chicago/tree/master/ExperimentalLearning/doc_external/conceptual_background.pdf
 
 ### [1] Loading and updating the _ExperimentalLearning_ Package 
 ----
