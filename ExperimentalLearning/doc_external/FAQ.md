@@ -15,9 +15,9 @@ https://github.com/sysmedlab/chicago/tree/master/ExperimentalLearning/doc_extern
 #! shell
 cd ${package_path}
 ## option - 1: SSH
-git clone -b clara_dev git@github.com:jannspiess/ExperimentalLearning.git
+git clone git@github.com:sysmedlab/chicago.git
 ## option - 2: HTTPS
-git clone -b clara_dev https://github.com/jannspiess/ExperimentalLearning.git
+git clone https://github.com/sysmedlab/chicago.git
 ````
 [2] _Install the package  (locally)_
 ````
@@ -31,13 +31,13 @@ library("ExperimentalLearning", character.only = TRUE)
 *[3] _Source the scripts locally (this step is only needed if local code changes are to be respected)_
 ````
 source(paste0(package_path, 
-"ExperimentalLearning/ExperimentalLearning/misc/dep_load_local.R")) # load dependencies locally
+"ExperimentalLearning/misc/dep_load_local.R")) # load dependencies locally
 
-for (x in list.files(paste0(package_path, "ExperimentalLearning/ExperimentalLearning/R"))) {
+for (x in list.files(paste0(package_path, "ExperimentalLearning/R"))) {
 
 	print(sprintf("source: %s", x))
 
-	source(paste0(package_path,"ExperimentalLearning/ExperimentalLearning/R/",x))
+	source(paste0(package_path,"ExperimentalLearning/R/",x))
 
 }
 ````
